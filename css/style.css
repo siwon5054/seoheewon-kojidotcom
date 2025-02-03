@@ -1,0 +1,459 @@
+@charset "utf-8";
+
+*{
+    margin:0; padding: 0; box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+header{
+    width:1920px;
+    height:80px;
+    background-color:#95181d;
+}
+.logo1{
+    text-align: center;
+    padding-top: 8px;
+  }
+
+
+  nav {
+    width: 1920px;
+    height:40px;
+    background-color: #fff;
+    text-align: center;
+
+}
+nav ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: 242424;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.h1{
+    color: #F4F4F4;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1920px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* effect */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;	
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+
+  .menu_type{
+    margin-bottom: 500px;
+  }
+
+  .menu_type_title{
+    text-align: center;
+    font-size: 50px;
+    
+  }
+
+  .menu_four{
+    margin-left: 240px;
+  }
+
+
+  .menu_four > li{
+    float: left;
+    margin-left: 30px;
+  }
+
+  .menu_1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 110px;
+  }
+
+  .menu_2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 110px;
+  }
+
+  .menu_3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  .menu_4{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 126px;
+  }
+
+
+
+.sourcestory{
+    list-style:none;
+    width:100%;
+    height:1850px;
+    display: block;
+    background-image:url("../img/sourcestory.jpg");
+}
+.bbq{
+    padding-left: 260px;
+    padding-top: 350px;
+}
+.bbq img{
+    float: left;
+    margin-right: 50px;
+}
+
+.bbq_title{
+    color:#a34900;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.bbq_text{
+    color:#242424;
+    font-size: 20px;
+    padding-left: 170px;
+    margin-top: 10px;
+}
+
+
+
+.briquettes{
+    margin-left: 260px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+.briquettes img{
+    float: left;
+    margin-right: 50px;
+}
+.briquettes_title{
+    color:#242424;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.briquettes_text{
+    color:#242424;
+    font-size: 20px;
+    padding-left: 170px;
+    margin-top: 10px;
+}
+
+
+
+.dokdo{
+    margin-left: 260px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+.dokdo img{
+    float: left;
+    margin-right: 50px;
+}
+.dokdo_title{
+    color:#0052e8;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.dokdo_text{
+    color:#242424;
+    font-size: 20px;
+    padding-left: 170px;
+    margin-top: 10px;
+}
+
+
+.mustard{
+    margin-left: 260px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+.mustard img{
+    float: left;
+    margin-right: 50px;
+}
+.mustard_title{
+    color:#ff7e00;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 40px;
+}
+.mustard_text{
+    color:#242424;
+    font-size: 20px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+
+
+.spicy{
+    margin-left: 260px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+.spicy img{
+    float: left;
+    margin-right: 50px;
+}
+.spicy_title{
+    color:#ff0000;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.spicy_text{
+    color:#242424;
+    font-size: 20px;
+    padding-left: 170px;
+    margin-top: 10px;
+}
+
+
+
+.tear{
+    margin-left: 260px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+.tear img{
+    float: left;
+    margin-right: 50px;
+}
+.tear_title{
+    color:#19b200;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.tear_text{
+    color:#242424;
+    font-size: 20px;
+    padding-left: 170px;
+    margin-top: 10px;
+}
+
+
+
+.bomb{
+    margin-left: 260px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+.bomb img{
+    float: left;
+    margin-right: 50px;
+}
+.bomb_title{
+    color:#b400ff;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.bomb_text{
+    color:#242424;
+    font-size: 20px;
+    padding-left: 170px;
+    margin-top: 10px;
+}
+
+
+
+
+.interior_title{
+    font-size: 70px;
+    margin-top: 120px;
+    text-align: center;
+    
+}
+.interior_title_red{
+    color: #95181d;
+}
+.interior_title_txt{
+    margin-top: 14px;
+    text-align: center;
+    font-size: 20px;
+}
+#interior_1{
+    width: 680px;
+    height:400px;
+    margin-left: 260px;
+    margin-top: 50px;
+}
+#interior_2{
+    width: 680px;
+    height:400px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#interior_3{
+    width: 680px;
+    height:400px;
+    margin-left: 260px;
+    margin-top: 30px;
+}
+#interior_4{
+    width: 680px;
+    height:400px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+footer{
+    background-color: #2c2c2c;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.h1_title{
+    padding-top: 40px;
+    font-size: 20px;    
+    font-weight: bold;
+    margin-left: 260px;
+    margin-top: 100px;
+}
+
+.footer_text{
+    margin-top: 20px;
+    font-size: 14px;
+    margin-left: 260px;
+    color: #cccccc;
+    width: 100%;
+    height: 100px;
+    line-height: 15px;
+}
+
+
+
+
+/*메뉴소개*/
+
+.menu01{
+    float: left;
+    margin-left: 30px;
+}
+.menu02{
+    float: left;
+    margin-left: 30px;
+}
+.menu03{
+    float: left;
+    margin-left: 30px;
+}
+.menu04{
+    float: left;
+    margin-left: 30px;
+    
+}
+
+.menu05{
+    float: left;
+    clear: both;
+    margin-left: 30px;
+}
+.menu06{
+    float: left;
+    margin-left: 30px;
+}
+.menu07{
+    float: left;
+    margin-left: 30px;
+}
+.menu08{
+    float: left;
+    margin-left: 30px;
+}
+
+
+.menu09{
+    float: left;
+    clear: both;
+    margin-left: 30px;
+}
+.menu10{
+    float: left;
+    margin-left: 30px;
+}
+.menu11{
+    float: left;
+    margin-left: 30px;
+}
+.menu12{
+    float: left;
+    margin-left: 30px;
+}
+.menu13{
+    float: left;
+    clear: both;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.walk{
+    float: left;
+    margin-left: 300px;
+}
+.address{
+    float: left;
+}
+.map{
+    margin-left: 600px;
+}
